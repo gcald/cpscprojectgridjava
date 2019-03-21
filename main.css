@@ -15,394 +15,391 @@
 
 .item-1{
     background-image: url('images/Background.png');
-    background-size: 236px 222px;
+    background-size: 100% 100%;
     grid-area: tile1;
 }
 
 .item-2{
   background-image: url('images/Background.png');
-  background-size: 236px 222px;
+  background-size: 100% 100%;
     grid-area: tile2;
-    background-color: blue;
-    z-index: -1;
-    /* background-image: url(/images */
 }
 
 .item-3{
   background-image: url('images/Background.png');
-  background-size: 236px 222px;
+  background-size: 100% 100%;
     grid-area: tile3;
     /* background-image: url(/images */
 }
 
 .item-4{
   background-image: url('images/Background.png');
-  background-size: 236px 222px;
+  background-size: 100% 100%;
     grid-area: tile4;
     /* background-image: url(/images */
 }
 
 .item-5{
   background-image: url('images/Background.png');
-  background-size: 236px 222px;
+  background-size: 100% 100%;
     grid-area: tile5;
 }
 
 .item-6{
   background-image: url('images/Background.png');
-  background-size: 236px 222px;
+  background-size: 100% 100%;
     grid-area: tile6;
 }
 
 .item-7{
   background-image: url('images/Background.png');
-  background-size: 236px 222px;
+  background-size: 100% 100%;
     grid-area: tile7;
 }
 
 .item-8{
   background-image: url('images/Background.png');
-  background-size: 236px 222px;
+  background-size: 100% 100%;
     grid-area: tile8;
 }
 
 .item-9{
   background-image: url('images/Background.png');
-  background-size: 236px 222px;
+  background-size: 100% 100%;
     grid-area: tile9;
 }
 
 .item-10{
   background-image: url('images/Background.png');
-  background-size: 236px 222px;
+  background-size: 100% 100%;
     grid-area: tile10;
 }
 
 .item-11{
   background-image: url('images/Background.png');
-  background-size: 236px 222px;
+  background-size: 100% 100%;
     grid-area: tile11;
 }
 
 .item-12{
   background-image: url('images/Background.png');
-  background-size: 236px 222px;
+  background-size: 100% 100%;
     grid-area: tile12;
 }
 
 .item-13{
   background-image: url('images/Background.png');
-  background-size: 236px 222px;
+  background-size: 100% 100%;
     grid-area: tile13;
 }
 
 .item-14{
   background-image: url('images/Background.png');
-  background-size: 236px 222px;
+  background-size: 100% 100%;
     grid-area: tile14;
 }
 
 .item-15{
   background-image: url('images/Background.png');
-  background-size: 236px 222px;
+  background-size: 100% 100%;
     grid-area: tile15;
 }
 
 .item-16{
   background-image: url('images/Background.png');
-  background-size: 236px 222px;
+  background-size: 100% 100%;
     grid-area: tile16;
 }
 
 .item-17{
   background-image: url('images/Background.png');
-  background-size: 236px 222px;
+  background-size: 100% 100%;
     grid-area: tile17;
 }
 
 .item-18{
   background-image: url('images/Background.png');
-  background-size: 236px 222px;
+  background-size: 100% 100%;
     grid-area: tile18;
 }
 
 .item-19{
   background-image: url('images/Background.png');
-  background-size: 236px 222px;
+  background-size: 100% 100%;
     grid-area: tile19;
 }
 
 .item-20{
   background-image: url('images/Background.png');
-  background-size: 236px 222px;
+  background-size: 100% 100%;
     grid-area: tile20;
 }
 
 .item-21{
   background-image: url('images/Background.png');
-  background-size: 236px 222px;
+  background-size: 100% 100%;
     grid-area: tile21;
 }
 
 .item-22{
   background-image: url('images/Background.png');
-  background-size: 236px 222px;
+  background-size: 100% 100%;
     grid-area: tile22;
 }
 
 .item-23{
   background-image: url('images/Background.png');
-  background-size: 236px 222px;
+  background-size: 100% 100%;
     grid-area: tile23;
 }
 
 .item-24{
   background-image: url('images/Background.png');
-  background-size: 236px 222px;
+  background-size: 100% 100%;
     grid-area: tile24;
 }
 
 .item-25{
   background-image: url('images/Background.png');
-  background-size: 236px 222px;
+  background-size: 100% 100%;
     grid-area: tile25;
 }
 
 .item-26{
   background-image: url('images/Background.png');
-  background-size: 236px 222px;
+  background-size: 100% 100%;
     grid-area: tile26;
 }
 
 .item-27{
   background-image: url('images/Background.png');
-  background-size: 236px 222px;
+  background-size: 100% 100%;
     grid-area: tile27;
 }
 
 .item-28{
   background-image: url('images/Background.png');
-  background-size: 236px 222px;
+  background-size: 100% 100%;
     grid-area: tile28;
 }
 
 .item-29{
   background-image: url('images/Background.png');
-  background-size: 236px 222px;
+  background-size: 100% 100%;
     grid-area: tile29;
 }
 
 .item-30{
   background-image: url('images/Background.png');
-  background-size: 236px 222px;
+  background-size: 100% 100%;
     grid-area: tile30;
 }
 .item-31{
     background-image: url('images/Background.png');
-    background-size: 236px 222px;
+    background-size: 100% 100%;
     grid-area: tile31;
 }
 
 .item-32{
   background-image: url('images/Background.png');
-  background-size: 236px 222px;
+  background-size: 100% 100%;
     grid-area: tile32;
     background-color: blue;
 }
 
 .item-33{
   background-image: url('images/Background.png');
-  background-size: 236px 222px;
+  background-size: 100% 100%;
     grid-area: tile33;
     /* background-image: url(/images */
 }
 
 .item-34{
   background-image: url('images/Background.png');
-  background-size: 236px 222px;
+  background-size: 100% 100%;
     grid-area: tile34;
     /* background-image: url(/images */
 }
 
 .item-35{
   background-image: url('images/Background.png');
-  background-size: 236px 222px;
+  background-size: 100% 100%;
     grid-area: tile35;
 }
 
 .item-36{
   background-image: url('images/Background.png');
-  background-size: 236px 222px;
+  background-size: 100% 100%;
     grid-area: tile36;
 }
 
 .item-37{
   background-image: url('images/Background.png');
-  background-size: 236px 222px;
+  background-size: 100% 100%;
     grid-area: tile37;
 }
 
 .item-38{
   background-image: url('images/Background.png');
-  background-size: 236px 222px;
+  background-size: 100% 100%;
     grid-area: tile38;
 }
 
 .item-39{
   background-image: url('images/Background.png');
-  background-size: 236px 222px;
+  background-size: 100% 100%;
     grid-area: tile39;
 }
 
 .item-40{
   background-image: url('images/Background.png');
-  background-size: 236px 222px;
+  background-size: 100% 100%;
     grid-area: tile40;
 }
 .item-41{
     background-image: url('images/Background.png');
-    background-size: 236px 222px;
+    background-size: 100% 100%;
     grid-area: tile41;
 }
 
 .item-42{
   background-image: url('images/Background.png');
-  background-size: 236px 222px;
+  background-size: 100% 100%;
     grid-area: tile42;
 }
 
 .item-43{
   background-image: url('images/Background.png');
-  background-size: 236px 222px;
+  background-size: 100% 100%;
     grid-area: tile43;
     /* background-image: url(/images */
 }
 
 .item-44{
   background-image: url('images/Background.png');
-  background-size: 236px 222px;
+  background-size: 100% 100%;
     grid-area: tile44;
     /* background-image: url(/images */
 }
 
 .item-45{
   background-image: url('images/Background.png');
-  background-size: 236px 222px;
+  background-size: 100% 100%;
     grid-area: tile45;
 }
 
 .item-46{
   background-image: url('images/Background.png');
-  background-size: 236px 222px;
+  background-size: 100% 100%;
     grid-area: tile46;
 }
 
 .item-47{
   background-image: url('images/Background.png');
-  background-size: 236px 222px;
+  background-size: 100% 100%;
     grid-area: tile47;
 }
 
 .item-48{
   background-image: url('images/Background.png');
-  background-size: 236px 222px;
+  background-size: 100% 100%;
     grid-area: tile48;
 }
 
 .item-49{
   background-image: url('images/Background.png');
-  background-size: 236px 222px;
+  background-size: 100% 100%;
     grid-area: tile49;
 }
 
 .item-50{
   background-image: url('images/Background.png');
-  background-size: 236px 222px;
+  background-size: 100% 100%;
     grid-area: tile50;
 }
 .item-51{
     background-image: url('images/Background.png');
-    background-size: 236px 222px;
+    background-size: 100% 100%;
     grid-area: tile51;
 }
 
 .item-52{
   background-image: url('images/Background.png');
-  background-size: 236px 222px;
+  background-size: 100% 100%;
     grid-area: tile52;
 }
 
 .item-53{
   background-image: url('images/Background.png');
-  background-size: 236px 222px;
+  background-size: 100% 100%;
     grid-area: tile53;
     /* background-image: url(/images */
 }
 
 .item-54{
   background-image: url('images/Background.png');
-  background-size: 236px 222px;
+  background-size: 100% 100%;
     grid-area: tile54;
     /* background-image: url(/images */
 }
 
 .item-55{
   background-image: url('images/Background.png');
-  background-size: 236px 222px;
+  background-size: 100% 100%;
     grid-area: tile55;
 }
 
 .item-56{
   background-image: url('images/Background.png');
-  background-size: 236px 222px;
+  background-size: 100% 100%;
     grid-area: tile56;
 }
 
 .item-57{
   background-image: url('images/Background.png');
-  background-size: 236px 222px;
+  background-size: 100% 100%;
     grid-area: tile57;
 }
 
 .item-58{
   background-image: url('images/Background.png');
-  background-size: 236px 222px;
+  background-size: 100% 100%;
     grid-area: tile58;
 }
 
 .item-59{
   background-image: url('images/Background.png');
-  background-size: 236px 222px;
+  background-size: 100% 100%;
     grid-area: tile59;
 }
 
 .item-60{
   background-image: url('images/Background.png');
-  background-size: 236px 222px;
+  background-size: 100% 100%;
     grid-area: tile60;
 }
 .item-61{
     background-image: url('images/Background.png');
-    background-size: 236px 222px;
+    background-size: 100% 100%;
     grid-area: tile61;
 }
 
 .item-62{
   background-image: url('images/Background.png');
-  background-size: 236px 222px;
+  background-size: 100% 100%;
     grid-area: tile62;
 }
 
 .item-63{
   background-image: url('images/Background.png');
-  background-size: 236px 222px;
+  background-size: 100% 100%;
     grid-area: tile63;
     /* background-image: url(/images */
 }
 
 .item-64{
   background-image: url('images/Background.png');
-  background-size: 236px 222px;
+  background-size: 100% 100%;
     grid-area: tile64;
     /* background-image: url(/images */
 }
