@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
     grid-template-rows: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
-    grid-template-areas: 
+    grid-template-areas:
         "tile1  tile2   tile3   tile4  tile5  tile6  tile7  tile8"
         "tile9  tile10  tile11  tile12 tile13 tile14 tile15 tile16"
         "tile17 tile18  tile19  tile20 tile21 tile22 tile23 tile24"
@@ -13,268 +13,396 @@
         "tile57 tile58  tile59  tile60 tile61 tile62 tile63 tile64"
 }
 
-img{
-    max-width: 100%;
-}
-
-#char1{
-    z-index: 1;
-}
-
-#char2{
-    z-index: 1;
-}
-
 .item-1{
+    background-image: url('images/Background.png');
+    background-size: 236px 222px;
     grid-area: tile1;
 }
 
 .item-2{
+  background-image: url('images/Background.png');
+  background-size: 236px 222px;
     grid-area: tile2;
+    background-color: blue;
+    z-index: -1;
+    /* background-image: url(/images */
 }
 
 .item-3{
+  background-image: url('images/Background.png');
+  background-size: 236px 222px;
     grid-area: tile3;
+    /* background-image: url(/images */
 }
 
 .item-4{
+  background-image: url('images/Background.png');
+  background-size: 236px 222px;
     grid-area: tile4;
+    /* background-image: url(/images */
 }
 
 .item-5{
+  background-image: url('images/Background.png');
+  background-size: 236px 222px;
     grid-area: tile5;
 }
 
 .item-6{
+  background-image: url('images/Background.png');
+  background-size: 236px 222px;
     grid-area: tile6;
 }
 
 .item-7{
+  background-image: url('images/Background.png');
+  background-size: 236px 222px;
     grid-area: tile7;
 }
 
 .item-8{
+  background-image: url('images/Background.png');
+  background-size: 236px 222px;
     grid-area: tile8;
 }
 
 .item-9{
+  background-image: url('images/Background.png');
+  background-size: 236px 222px;
     grid-area: tile9;
 }
 
 .item-10{
+  background-image: url('images/Background.png');
+  background-size: 236px 222px;
     grid-area: tile10;
 }
 
 .item-11{
+  background-image: url('images/Background.png');
+  background-size: 236px 222px;
     grid-area: tile11;
 }
 
 .item-12{
+  background-image: url('images/Background.png');
+  background-size: 236px 222px;
     grid-area: tile12;
 }
 
 .item-13{
+  background-image: url('images/Background.png');
+  background-size: 236px 222px;
     grid-area: tile13;
 }
 
 .item-14{
+  background-image: url('images/Background.png');
+  background-size: 236px 222px;
     grid-area: tile14;
 }
 
 .item-15{
+  background-image: url('images/Background.png');
+  background-size: 236px 222px;
     grid-area: tile15;
 }
 
 .item-16{
+  background-image: url('images/Background.png');
+  background-size: 236px 222px;
     grid-area: tile16;
 }
 
 .item-17{
+  background-image: url('images/Background.png');
+  background-size: 236px 222px;
     grid-area: tile17;
 }
 
 .item-18{
+  background-image: url('images/Background.png');
+  background-size: 236px 222px;
     grid-area: tile18;
 }
 
 .item-19{
+  background-image: url('images/Background.png');
+  background-size: 236px 222px;
     grid-area: tile19;
 }
 
 .item-20{
+  background-image: url('images/Background.png');
+  background-size: 236px 222px;
     grid-area: tile20;
 }
 
 .item-21{
+  background-image: url('images/Background.png');
+  background-size: 236px 222px;
     grid-area: tile21;
 }
 
 .item-22{
+  background-image: url('images/Background.png');
+  background-size: 236px 222px;
     grid-area: tile22;
 }
 
 .item-23{
+  background-image: url('images/Background.png');
+  background-size: 236px 222px;
     grid-area: tile23;
 }
 
 .item-24{
+  background-image: url('images/Background.png');
+  background-size: 236px 222px;
     grid-area: tile24;
 }
 
 .item-25{
+  background-image: url('images/Background.png');
+  background-size: 236px 222px;
     grid-area: tile25;
 }
 
 .item-26{
+  background-image: url('images/Background.png');
+  background-size: 236px 222px;
     grid-area: tile26;
 }
 
 .item-27{
+  background-image: url('images/Background.png');
+  background-size: 236px 222px;
     grid-area: tile27;
 }
 
 .item-28{
+  background-image: url('images/Background.png');
+  background-size: 236px 222px;
     grid-area: tile28;
 }
 
 .item-29{
+  background-image: url('images/Background.png');
+  background-size: 236px 222px;
     grid-area: tile29;
 }
 
 .item-30{
+  background-image: url('images/Background.png');
+  background-size: 236px 222px;
     grid-area: tile30;
 }
-
 .item-31{
+    background-image: url('images/Background.png');
+    background-size: 236px 222px;
     grid-area: tile31;
 }
+
 .item-32{
+  background-image: url('images/Background.png');
+  background-size: 236px 222px;
     grid-area: tile32;
+    background-color: blue;
 }
+
 .item-33{
+  background-image: url('images/Background.png');
+  background-size: 236px 222px;
     grid-area: tile33;
+    /* background-image: url(/images */
 }
+
 .item-34{
+  background-image: url('images/Background.png');
+  background-size: 236px 222px;
     grid-area: tile34;
+    /* background-image: url(/images */
 }
+
 .item-35{
+  background-image: url('images/Background.png');
+  background-size: 236px 222px;
     grid-area: tile35;
 }
+
 .item-36{
+  background-image: url('images/Background.png');
+  background-size: 236px 222px;
     grid-area: tile36;
 }
+
 .item-37{
+  background-image: url('images/Background.png');
+  background-size: 236px 222px;
     grid-area: tile37;
 }
+
 .item-38{
+  background-image: url('images/Background.png');
+  background-size: 236px 222px;
     grid-area: tile38;
 }
+
 .item-39{
+  background-image: url('images/Background.png');
+  background-size: 236px 222px;
     grid-area: tile39;
 }
+
 .item-40{
+  background-image: url('images/Background.png');
+  background-size: 236px 222px;
     grid-area: tile40;
 }
 .item-41{
+    background-image: url('images/Background.png');
+    background-size: 236px 222px;
     grid-area: tile41;
 }
+
 .item-42{
+  background-image: url('images/Background.png');
+  background-size: 236px 222px;
     grid-area: tile42;
 }
+
 .item-43{
+  background-image: url('images/Background.png');
+  background-size: 236px 222px;
     grid-area: tile43;
+    /* background-image: url(/images */
 }
+
 .item-44{
+  background-image: url('images/Background.png');
+  background-size: 236px 222px;
     grid-area: tile44;
+    /* background-image: url(/images */
 }
+
 .item-45{
+  background-image: url('images/Background.png');
+  background-size: 236px 222px;
     grid-area: tile45;
 }
+
 .item-46{
+  background-image: url('images/Background.png');
+  background-size: 236px 222px;
     grid-area: tile46;
 }
+
 .item-47{
+  background-image: url('images/Background.png');
+  background-size: 236px 222px;
     grid-area: tile47;
 }
+
 .item-48{
+  background-image: url('images/Background.png');
+  background-size: 236px 222px;
     grid-area: tile48;
 }
+
 .item-49{
+  background-image: url('images/Background.png');
+  background-size: 236px 222px;
     grid-area: tile49;
 }
+
 .item-50{
+  background-image: url('images/Background.png');
+  background-size: 236px 222px;
     grid-area: tile50;
 }
 .item-51{
+    background-image: url('images/Background.png');
+    background-size: 236px 222px;
     grid-area: tile51;
 }
+
 .item-52{
+  background-image: url('images/Background.png');
+  background-size: 236px 222px;
     grid-area: tile52;
 }
+
 .item-53{
+  background-image: url('images/Background.png');
+  background-size: 236px 222px;
     grid-area: tile53;
+    /* background-image: url(/images */
 }
+
 .item-54{
+  background-image: url('images/Background.png');
+  background-size: 236px 222px;
     grid-area: tile54;
+    /* background-image: url(/images */
 }
+
 .item-55{
+  background-image: url('images/Background.png');
+  background-size: 236px 222px;
     grid-area: tile55;
 }
+
 .item-56{
+  background-image: url('images/Background.png');
+  background-size: 236px 222px;
     grid-area: tile56;
 }
+
 .item-57{
+  background-image: url('images/Background.png');
+  background-size: 236px 222px;
     grid-area: tile57;
 }
+
 .item-58{
+  background-image: url('images/Background.png');
+  background-size: 236px 222px;
     grid-area: tile58;
 }
+
 .item-59{
+  background-image: url('images/Background.png');
+  background-size: 236px 222px;
     grid-area: tile59;
 }
+
 .item-60{
+  background-image: url('images/Background.png');
+  background-size: 236px 222px;
     grid-area: tile60;
 }
 .item-61{
+    background-image: url('images/Background.png');
+    background-size: 236px 222px;
     grid-area: tile61;
 }
+
 .item-62{
+  background-image: url('images/Background.png');
+  background-size: 236px 222px;
     grid-area: tile62;
 }
+
 .item-63{
+  background-image: url('images/Background.png');
+  background-size: 236px 222px;
     grid-area: tile63;
+    /* background-image: url(/images */
 }
+
 .item-64{
+  background-image: url('images/Background.png');
+  background-size: 236px 222px;
     grid-area: tile64;
-}
-
-
-.controls
-{
-    display: grid;
-    grid-template-columns: 10% 10%  10% 40% 10% 10% 10%;
-    grid-template-rows: 50% 50%;
-    grid-template-areas:
-    "blank up blank blank blank up blank"
-    "left down right blank left down right"
-}
-.up
-{
-    grid-area: up;
-}
-.down
-{
-    grid-area: down;
-}
-.left
-{
-    grid-area: left;
-}
-.right
-{
-    grid-area: right;
-}
-.blank
-{
-    grid-area: blank;
+    /* background-image: url(/images */
 }
