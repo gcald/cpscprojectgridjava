@@ -13,24 +13,32 @@
         "tile57 tile58  tile59  tile60 tile61 tile62 tile63 tile64"
 }
 
+img{
+    max-width: 100%;
+}
+
+#char1{
+    z-index: 1;
+}
+
+#char2{
+    z-index: 1;
+}
+
 .item-1{
     grid-area: tile1;
-    background-image: url('/images/BG.png');
 }
 
 .item-2{
     grid-area: tile2;
-    /* background-image: url(/images */
 }
 
 .item-3{
     grid-area: tile3;
-    /* background-image: url(/images */
 }
 
 .item-4{
     grid-area: tile4;
-    /* background-image: url(/images */
 }
 
 .item-5{
@@ -133,6 +141,140 @@
     grid-area: tile29;
 }
 
-.item-10{
-    grid-area: tile10;
+.item-30{
+    grid-area: tile30;
+}
+
+.item-31{
+    grid-area: tile31;
+}
+.item-32{
+    grid-area: tile32;
+}
+.item-33{
+    grid-area: tile33;
+}
+.item-34{
+    grid-area: tile34;
+}
+.item-35{
+    grid-area: tile35;
+}
+.item-36{
+    grid-area: tile36;
+}
+.item-37{
+    grid-area: tile37;
+}
+.item-38{
+    grid-area: tile38;
+}
+.item-39{
+    grid-area: tile39;
+}
+.item-40{
+    grid-area: tile40;
+}
+.item-41{
+    grid-area: tile41;
+}
+.item-42{
+    grid-area: tile42;
+}
+.item-43{
+    grid-area: tile43;
+}
+.item-44{
+    grid-area: tile44;
+}
+.item-45{
+    grid-area: tile45;
+}
+.item-46{
+    grid-area: tile46;
+}
+.item-47{
+    grid-area: tile47;
+}
+.item-48{
+    grid-area: tile48;
+}
+.item-49{
+    grid-area: tile49;
+}
+.item-50{
+    grid-area: tile50;
+}
+.item-51{
+    grid-area: tile51;
+}
+.item-52{
+    grid-area: tile52;
+}
+.item-53{
+    grid-area: tile53;
+}
+.item-54{
+    grid-area: tile54;
+}
+.item-55{
+    grid-area: tile55;
+}
+.item-56{
+    grid-area: tile56;
+}
+.item-57{
+    grid-area: tile57;
+}
+.item-58{
+    grid-area: tile58;
+}
+.item-59{
+    grid-area: tile59;
+}
+.item-60{
+    grid-area: tile60;
+}
+.item-61{
+    grid-area: tile61;
+}
+.item-62{
+    grid-area: tile62;
+}
+.item-63{
+    grid-area: tile63;
+}
+.item-64{
+    grid-area: tile64;
+}
+
+
+.controls
+{
+    display: grid;
+    grid-template-columns: 10% 10%  10% 40% 10% 10% 10%;
+    grid-template-rows: 50% 50%;
+    grid-template-areas:
+    "blank up blank blank blank up blank"
+    "left down right blank left down right"
+}
+.up
+{
+    grid-area: up;
+}
+.down
+{
+    grid-area: down;
+}
+.left
+{
+    grid-area: left;
+}
+.right
+{
+    grid-area: right;
+}
+.blank
+{
+    grid-area: blank;
 }
