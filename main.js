@@ -6,6 +6,32 @@ window.onload = function(){
     document.getElementById("player2").style.gridArea = "tile64";
 }
 
+document.addEventListener('keydown', function(event){
+    if(event.key == "d"){
+        moveRight(1);
+    }
+    if(event.key == "w"){
+        moveUp(1);
+    }
+    if(event.key == "a"){
+        moveLeft(1);
+    }
+    if(event.key == "s"){
+        moveDown(1);
+    }
+    if(event.key == "l"){
+        moveRight(2);
+    }
+    if(event.key == "i"){
+        moveUp(2);
+    }
+    if(event.key == "j"){
+        moveLeft(2);
+    }
+    if(event.key == "k"){
+        moveDown(2);
+    }
+});
 
 function moveRight(player_num){
     if(player_num == 1){
