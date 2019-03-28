@@ -10,8 +10,8 @@
 </head>
 <body>
     <div class = "grid-container">
-        <div class="player1"></div>
-        <div class="player2"></div>
+        <img id="player1" src="images/idle-boy.png" height="100%" width="100%">
+        <img id="player2" src="images/idle-girl.png" height="100%" width="100%">
         <div class="item-0"></div>
         <div class="item-1"></div>
         <div class="item-2"></div>
@@ -78,5 +78,15 @@
         <div class="item-63"></div>
         <div class="item-64"></div>
     </div>
+    <footer>
+        <button id="up_char1" class="up_char1" onclick="moveUp(1)">Up</button>
+        <button id="up_char2" class="up_char2" onclick="moveUp(2)">Up</button> 
+        <button id="left_char1" class="left_char1" onclick="moveLeft(1)">Left</button>
+        <button id="down_char1" class="down_char1" onclick="moveDown(1)">Down</button>
+        <button id="right_char1" class="right_char1" onclick="moveRight(1)">Right</button>
+        <button id="left_char2" class="left_char2" onclick="moveLeft(2)">Left</button>
+        <button id="down_char2" class="down_char2" onclick="moveDown(2)">Down</button>
+        <button id="right_char2" class="right_char2" onclick="moveRight(2)">Right</button>
+    </footer>
 </body>
 </html>

@@ -1,5 +1,5 @@
 html, body{
-  height: 100%;
+  height: 90%;
 }
 
 .grid-container{
@@ -18,6 +18,16 @@ html, body{
         "tile41 tile42  tile43  tile44 tile45 tile46 tile47 tile48"
         "tile49 tile50  tile51  tile52 tile53 tile54 tile55 tile56"
         "tile57 tile58  tile59  tile60 tile61 tile62 tile63 tile64"
+}
+
+#player1{
+  z-index: 1;
+  grid-area: tile1;
+}
+
+#player2{
+  z-index: 1;
+  grid-area: tile64;
 }
 
 .item-1{
@@ -404,4 +414,60 @@ html, body{
   background-size: 100% 100%;
   grid-area: tile64;
     /* background-image: url(/images */
+}
+
+footer
+{
+  height: 100px;
+  width: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 3fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+
+.up_char1
+{
+  grid-column-start: 2;
+}
+
+.up_char2
+{
+  grid-column-start: 6;
+}
+
+.left_char1
+{
+  grid-row-start: 2;
+}
+
+.down_char1
+{
+  grid-row-start: 2;
+}
+
+.right_char1
+{
+  grid-row-start: 2;
+}
+
+
+.left_char2
+{
+  grid-row-start: 2;
+  grid-column-start: 5;
+}
+
+
+.down_char2
+{
+  grid-row-start: 2;
+  grid-column-start: 6;
+}
+
+
+.right_char2
+{
+  grid-row-start: 2;
+  grid-column-start: 7;
 }

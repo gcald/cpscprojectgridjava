@@ -1,28 +1,72 @@
-var btn = document.querySelector('button');
+let player1_pos = 1;
+let player2_pos = 64;
 
-
-btn.onclick = function(){
-    alert("hello world")
+window.onload = function(){
+    document.getElementById("player1").style.gridArea = "tile1";
+    document.getElementById("player2").style.gridArea = "tile64";
 }
 
-var wasd = document.querySelector(w)
 
-window.addEventListener("keydown", moveCharacter, false);
-
-function moveCharacter(e){
-    switch(e.keyCode){
-        case 97: alert("left");
-        break;
-        case 38:
-        // up key pressed
-        break;
-    case 39:
-        // right key pressed
-        break;
-    case 40:
-        // down key pressed
-        break;
+function moveRight(player_num){
+    if(player_num == 1){
+        if(player1_pos != 64){
+            player1_pos++;
+            console.log(player1_pos);
+            document.getElementById("player1").style.gridArea = `tile${player1_pos}`;
+        }
+    } else {
+        if(player2_pos != 64){
+            player2_pos++;
+            console.log(player2_pos);
+            document.getElementById("player2").style.gridArea = `tile${player2_pos}`;
+        }
     }
 }
 
-funct
+function moveLeft(player_num){
+    if(player_num == 1){
+        if(player1_pos != 1){
+            player1_pos--;
+            console.log(player1_pos);
+            document.getElementById("player1").style.gridArea = `tile${player1_pos}`;
+        }
+    } else {
+        if(player2_pos != 1){
+            player2_pos--;
+            console.log(player2_pos);
+            document.getElementById("player2").style.gridArea = `tile${player2_pos}`;
+        }
+    }
+}
+
+function moveUp(player_num){
+    if(player_num == 1){
+        if(player1_pos > 8){
+            player1_pos = player1_pos - 8;
+            console.log(player1_pos);
+            document.getElementById("player1").style.gridArea = `tile${player1_pos}`;
+        }
+    } else {
+        if(player2_pos > 8){
+            player2_pos = player2_pos - 8;
+            console.log(player2_pos);
+            document.getElementById("player2").style.gridArea = `tile${player2_pos}`;
+        }
+    }
+}
+
+function moveDown(player_num){
+    if(player_num == 1){
+        if(player1_pos < 57){
+            player1_pos = player1_pos + 8;
+            console.log(player1_pos);
+            document.getElementById("player1").style.gridArea = `tile${player1_pos}`;
+        }
+    } else {
+        if(player2_pos < 57){
+            player2_pos = player2_pos + 8;
+            console.log(player2_pos);
+            document.getElementById("player2").style.gridArea = `tile${player2_pos}`;
+        }
+    }
+}
