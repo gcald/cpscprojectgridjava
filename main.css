@@ -1,7 +1,11 @@
+html, body{
+  height: 100%;
+}
+
 .grid-container{
     display: grid;
     justify-content: stretch;
-    height: 1000px;
+    height: 100%;
     width: 100%;
     grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
     grid-template-rows: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
